@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {Compoent} from 'react';
 import './App.css';
-import Movie from './Movie'
+import Movie from './Movie';
 
 
 const movies = [

@@ -4,12 +4,23 @@ import './Movie.css';
 class Movie extends Component{
     render(){
         return(
-        <h1>hello, this is a movie</h1>
+            <div>
+                <MoviePoster />
+                <h1>hello, this is a movie</h1>
+            </div>
+
         )
     }
 
 }
 
+class MoviePoster extends Component{
+    render(){
+        return(
+            <img src = "https://images-na.ssl-images-amazon.com/images/I/91KkWf50SoL._SL1500_.jpg"/>
+        )
+    }
+}
 
 
 export default Movie

@@ -22,14 +22,15 @@ const movies = [
   }
 ]
 
-function App() {
-  return (
+class App extends Component {
+  render(){ (
     <div className="App">
       {movies.map(movie => {
-        <Movie title = {movie.title} poster = {movie.poster} />
+        return <Movie title = {movie.title} poster = {movie.poster} />
       })} 
     </div>
-  );
+    );
+  } 
 }
 
 export default App;

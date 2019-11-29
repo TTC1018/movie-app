@@ -23,7 +23,8 @@ const movies = [
 ]
 
 class App extends Component {
-  render(){ (
+  render(){ 
+    return (
     <div className="App">
       {movies.map(movie => {
         return <Movie title = {movie.title} poster = {movie.poster} />
